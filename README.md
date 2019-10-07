@@ -1,4 +1,4 @@
-### YUMMY PIZZA
+### YUMMY PIZZA PALACE
 ![All are welcome](https://cdn.newsapi.com.au/image/v1/9a257e779a1dd88a9adc5c27685ba208?width=1024)
 ### Author Name
 **Vique/Victor**
