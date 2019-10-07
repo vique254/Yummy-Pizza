@@ -15,12 +15,12 @@ padding-left: 20%;
     width: 150px;
     color:purple;
 }
-button:hover{
+#order:hover{
     background-color:yellow;
 }
 .now{
 width:300px;
-height: 560px;
+height: 890px;
 color: black;
 background-color: white;
 opacity: 0.7;
@@ -56,10 +56,13 @@ opacity: 0.7;
     border-radius: 70%;
     height: 90px;
 }
-/* .card-footer{
+ .card-footer{
     margin: auto;
     background-color: white;
-} */
+  }  
+#total_amount{
+      width: 200px;
+  }
 .nav{
     width: 900px;
     float: right;
