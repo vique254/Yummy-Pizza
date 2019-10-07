@@ -5,7 +5,6 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery.mask1.13.4/jquery.mask.min.js"></script>
     <link rel="stylesheet" href="./css/bootstrap.css">
     <link rel="stylesheet" href="./css/styles.css">
     <link rel="stylesheet" href="Menu.html">
@@ -29,61 +28,30 @@
 <div class="now">
     <div id="Order" >
         <h1>WELCOME</h1>
-     <label for="size"><strong> Pizza size</strong></label><br>
-     <select name="" >
-         <option value="" >Small <div id="size">Ksh.600</div></option>
-         <option value="">Medium Ksh.800</option>
-         <option value="">Large Ksh.1100</option>
+        <form >
+     <label for="sizee"><strong> Pizza size</strong></label><br>
+     <select id="sizee" >
+         <option value="small" >Small Ksh.600</option>
+         <option value="medium">Medium Ksh.800</option>
+         <option value="large">Large Ksh.1100</option>
         </select><br><br>
         <label for="types"><strong>Pizza Toppings</strong></label><br>
-        <input type="radio" value="flavour" id="">Pepperoni Ksh.300 <br>
-        <input type="radio" value="flavour">Bacon Ksh.250 <br>
-        <input type="radio">Green peppers Ksh.250 <br>
-        <input type="radio">Black OLives Ksh.200<br>
-        <input type="radio">Sausage Ksh.150 <br>
+        <input type="radio" name="radio" value="pepperoni" id="Toppings">Pepperoni Ksh.300 <br>
+        <input type="radio" name="radio" value="bacon"  id="Toppings">Bacon Ksh.250 <br>
+        <input type="radio"  name="radio" value="green peppers"  id="Toppings">Green peppers Ksh.250 <br>
+        <input type="radio" name="radio" value="black Olives" id="Toppings">Black Olives Ksh.200<br>
+        <input type="radio" name="radio" value="sausage" id="Toppings">Sausage Ksh.150 <br>
 <label for="crust"> <strong>Pizza Crust</strong></label><br>
-   <select name="" id=""><br>
-       <option value="">Crispy Ksh.350</option>
-       <option value="">Stuffed Ksh.450</option>
-       <option value="">Gluten-free Ksh.400</option>
+   <select name="" id="crust"><br>
+       <option value="crispy">Crispy Ksh.350</option>
+       <option value="stuffed">Stuffed Ksh.450</option>
+       <option value="gluten">Gluten-free Ksh.400</option>
    </select><br>
-   <div class="amount">  
-        <div class="row">
-        <div class="col-md-8">
-                <label class="control-label col-md-2">Amount 1</label>
-                <div class="col-md-4">
-                        <input type="text" name="" class="form-control input-sm text-right amount" style="width:200px;">
-    </div>
-    </div>
-   </div>
-   <div class="row">
-        <div class="col-md-8">
-                <label class="control-label col-md-2">Amount 2</label>
-                <div class="col-md-4">
-                        <input type="text" name="" class="form-control input-sm text-right amount" style="width:200px;">
-    </div>
-    </div>
-   </div>
-   <div class="row">
-        <div class="col-md-8">
-                <label class="control-label col-md-2">Amount 3</label>
-                <div class="col-md-4">
-                        <input type="text" name="" class="form-control input-sm text-right amount" style="width:200px;">
-    </div>
-    </div>
-   </div>
-</div>
-   <div class="row">
-        <div class="col-md-8">
-            <label class="control-label col-md-2"> Total:</label>
-            <div class="col-md-4">
-    <input type="text" name="" class="form-control input-sm text-right amount" readonly id="total_amount">
-            </div>
-      </div>
-      </div>
+   <input type="Submit" name="order" id="order" value="Order">
+   <button>add</button> 
+</form>
    <div class="button">
-   <input type="Submit" name="order" id="order"  onclick="total_amount()" value="Order">
-   <button>add</button>
+   
    </div>
     </div>
     </div>
