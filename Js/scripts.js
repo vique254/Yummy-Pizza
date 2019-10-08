@@ -41,7 +41,7 @@ $("document").ready(
     function(){
         $("form").submit(
             function(){
-                var topping = $("#Toppings").find(":checked").val();
+           var topping= $('input[name=radio]:checked').val();
                 alert(topping);
             }
         );
@@ -56,4 +56,51 @@ $("document").ready(
                 }
         );
     }
-);
+
+    function Getvalue(size,toppings,crust,quantity){
+        this.selectedSize=size;
+        this.selectedToppings=toppings;
+        this.selectedCrust=crust;
+        this.selectedQuantity=quantity;
+    }
+    function Total(size,quantity,delivery){
+        this.size=size;
+        this.quantity=quantity;
+        this.delivery=delivery;
+    }
+    Total.prototype.finalTotal =function(){
+        return this.size+this.quantity+this.delivery;
+    }
+    (doocument).ready(function(){
+        $(".allme").click(event).preventDefault(){
+            var selectedCrust=("$crust").val();
+            var selectedSize=("$size").val();
+            var selectedQuantity=parseInt("$nums").val();
+            var selected    Toppings=("$Toppings").val();
+            var selectedDelivery=("$devs").val();
+            var deliveryPrices=[100,0];
+            var pizaPrices=[600,800,1400];
+            var deliveryPrices(InputtedPrice-1);
+            var PizzaPrice(InputtedPrice-1);
+
+            Total= new Total()
+
+
+
+
+        });
+    };
+    
+function sizeCalcPrice(size) {
+    if (size === "small") {
+      return sizePrice.small * 1;
+    } 
+    else if (size === "medium") {
+      return sizePrice.medium * 1;
+    } 
+    else {
+      return sizePrice.large * 1;
+    };
+  });
+
+    
