@@ -29,30 +29,35 @@
     <div id="Order" >
         <h1>WELCOME</h1>
         <form >
-     <label for="sizee"><strong> Pizza size</strong></label><br>
-     <select id="sizee" >
-         <option value="small" >Small Ksh.600</option>
-         <option value="medium">Medium Ksh.800</option>
-         <option value="large">Large Ksh.1100</option>
+            <div class="allme">
+     <label for="size"><strong> Pizza size</strong></label><br>
+     <select id="size" >
+         <option value="Ksh.600" >Small Ksh.600</option>
+         <option value="Ksh.800">Medium Ksh.800</option>
+         <option value="Ksh.1100">Large Ksh.1100</option>
         </select><br><br>
         <label for="types"><strong>Pizza Toppings</strong></label><br>
-        <input type="radio" name="radio" value="pepperoni" id="Toppings">Pepperoni Ksh.300 <br>
-        <input type="radio" name="radio" value="bacon"  id="Toppings">Bacon Ksh.250 <br>
-        <input type="radio"  name="radio" value="green peppers"  id="Toppings">Green peppers Ksh.250 <br>
-        <input type="radio" name="radio" value="black Olives" id="Toppings">Black Olives Ksh.200<br>
-        <input type="radio" name="radio" value="sausage" id="Toppings">Sausage Ksh.150 <br>
+        <input type="radio" name="radio" value="Ksh.300" id="Toppings">Pepperoni Ksh.300 <br>
+        <input type="radio" name="radio" value="Ksh.250"  id="Toppings">Bacon Ksh.250 <br>
+        <input type="radio"  name="radio" value="Ksh.250"  id="Toppings">Green peppers Ksh.250 <br>
+        <input type="radio" name="radio" value="Ksh.200" id="Toppings">Black Olives Ksh.200<br>
+        <input type="radio" name="radio" value="Ksh.150" id="Toppings">Sausage Ksh.150 <br>
 <label for="crust"> <strong>Pizza Crust</strong></label><br>
    <select name="" id="crust"><br>
-       <option value="crispy">Crispy Ksh.350</option>
-       <option value="stuffed">Stuffed Ksh.450</option>
-       <option value="gluten">Gluten-free Ksh.400</option>
+       <option value="Ksh.350">Crispy Ksh.350</option>
+       <option value="Ksh.450">Stuffed Ksh.450</option>
+       <option value="Ksh.400">Gluten-free Ksh.400</option>
    </select><br>
-   <input type="Submit" name="order" id="order" value="Order">
-   <button>add</button> 
+   <label ><strong>Quantity</strong> </label>
+   <input type="number" name="num" value="" id="nums"><br>
+   <label>Delivery</label><br>
+   <select  id="devs">
+       <option value="1">Deliver</option>
+       <option value="2">No Delivery</option>
+   </select><br>
+   <input type="Submit" name="order" id="order" value="Order"> <br>
+ </div>
 </form>
-   <div class="button">
-   
-   </div>
     </div>
     </div>
    </div>
