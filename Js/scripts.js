@@ -1,6 +1,5 @@
 
 function Details( size, crust, toppings, quantity){
-  // this.selectedType = type;
   this.selectedSize = size;
   this.selectedCrust = crust;
   this.selectedToppings = toppings;
